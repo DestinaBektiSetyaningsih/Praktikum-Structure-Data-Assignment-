@@ -62,6 +62,9 @@ main()
     return 0;
 }
 ```
+Output:
+![Screenshot 2024-03-11 131643](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/4ac9766b-bd72-4139-bff4-118c5cc807d8)
+
 Kode di atas digunakan untuk mencari rumus "Belah Ketupat" menggunakan function cout untuk menampilkan hasil dari keliling dan luas bangun datar itu.
 
 ###2. [Tipe Data Abstract]
@@ -100,6 +103,9 @@ int main()
     return 0;
 }
 ```
+output:
+![Screenshot 2024-03-11 131921](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/361b9c0a-4917-4652-baaf-82febae9d87e)
+
 ###3. [Tipe Data Koleksi]
 
 ```C++
@@ -118,6 +124,8 @@ cout << "Isi array keempat :" << nilai[3] << endl;
 cout << "Isi array kelima :" << nilai[4] << endl;
 return 0;
 ```
+output:
+![Screenshot 2024-03-11 132014](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/b30f437e-6055-4aaa-9087-ab183f030219)
 
 ## Unguided 
 
@@ -167,13 +175,12 @@ int main() {
 
 ```
 #### Output:
-(![Screenshot 2024-03-11 081738](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/4509ca1e-4283-4818-b68c-4a1f88220217))
+![Screenshot 2024-03-11 132158](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/e3cca5cc-26cb-49f3-ba06-7a7abfbbb9e9)
 
 Kode di atas digunakan untuk mencari rumus "Belah Ketupat" menggunakan function cout untuk menampilkan hasil dari keliling dan luas bangun datar itu dan switch untuk menyeleksi kode tersebut
 
 #### Full code Screenshot:
-![240309_10h21m35s_screenshot]![Screenshot 2024-03-11 074531](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/b372a86f-8813-4b82-abb7-69bc70096ac4)
-![Screenshot 2024-03-11 074549](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/e4eb8bd2-e19a-4d58-b9d5-b5a7648a1da3)
+![Screenshot 2024-03-11 132144](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/7ade572e-f5ec-4462-b997-1265fa2a0f9a)
 
 Interpretasi:
 program diatas meminta pengguna untuk memasukan nilai keliling dan nilai luas pada bangunan belah ketupat dengan menggunakan cin dan cout, kemudian di simpan pada variabel keliling dan luas.
@@ -211,10 +218,10 @@ endl;
 }
 ```
 #### Output:
-![Screenshot 2024-03-11 084518](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/bd277149-a46c-45cb-b2d9-0e555ede84e9)
+![Screenshot 2024-03-11 132339](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/29116adc-9562-4c06-b9ac-a114dbdefecb)
 
 #### Full code Screenshot:
-![Screenshot 2024-03-11 084503](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/80c33d16-7ff5-4f48-bcb3-f446301bf468)
+![Screenshot 2024-03-11 132349](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/2d38820f-e12c-4cf1-85c2-f42d49b3d0f0)
 
 Interpretasi:
 Program ini meminta untuk mendeklarasikan isi variabel. Program menyimpan struct kulkas dan makanan serta minuman berbentuk string. Lalu jumlah berbentuk integer dan variabel isi dari struct kulkas di deklarasikan.
@@ -258,10 +265,10 @@ endl;
 }
 ```
 #### Output:
-![Screenshot 2024-03-11 094245](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/69d033e6-e6df-4ca3-ae5d-901de51df379)
+![Screenshot 2024-03-11 132504](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/f9dfcbe3-db12-4aef-9306-24a14aafc71a)
 
 #### Full code Screenshot:
-![Screenshot 2024-03-11 094221](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/c330873d-ce64-4a11-a0c5-31121941ba98)
+![Screenshot 2024-03-11 132514](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/c160eb45-59ef-46a9-9c37-279071572887)
 
 Interpretasi:
 Program diatas meminta pengguna untuk mengecek stok skincare itu tersedia atau tidak. cara mengecek dengan menggunakan function cout, kemudian di simpan pada variabel "tipe skincare". Kemudian program itu akan mengecek ketersedian tipe skincare yang kita butuhkan.
