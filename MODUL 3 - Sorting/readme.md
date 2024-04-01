@@ -75,6 +75,8 @@ int main() {
 ```
 Output:
 "C:\Users\Lenovo\OneDrive\Pictures\Screenshots\Screenshot 2024-04-01 132733.png"
+Screenshot 2024-04-01 132733
+C:\Users\Lenovo\OneDrive\Pictures\Screenshots
 
 Interpretasi: 
 Dari data diatas ada 5 bilangan yang tidak terurut yaitu 22.1, 15.3, 8.2, 33.21, 99.
