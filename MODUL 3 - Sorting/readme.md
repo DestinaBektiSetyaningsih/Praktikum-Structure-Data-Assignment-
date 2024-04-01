@@ -74,7 +74,7 @@ int main() {
 }
 ```
 Output:
-![Screenshot 2024-04-01 132733](https://github.com/DestinaBektiS/Praktikum-Modul-3/assets/162097232/712ac218-3f4f-466d-9a7f-82af020f4ecd)
+"C:\Users\Lenovo\OneDrive\Pictures\Screenshots\Screenshot 2024-04-01 132733.png"
 
 Interpretasi: 
 Dari data diatas ada 5 bilangan yang tidak terurut yaitu 22.1, 15.3, 8.2, 33.21, 99.
@@ -122,7 +122,7 @@ int main() {
 }
 ```
 Output:
-![Screenshot 2024-04-01 132826](https://github.com/DestinaBektiS/Praktikum-Modul-3/assets/162097232/c67a97d8-b93a-4791-8b59-32827990dfda)
+"C:\Users\Lenovo\OneDrive\Pictures\Screenshots\Screenshot 2024-04-01 132826.png"
 
 Interpretasi:
 Dari data diatas kita bisa  mengetahui urutan sebelum dan sesudah sorting. Jika ingin menggunakan fungsi Insertion Sort, maka menerima 2 parameter yaitu "array" dan "length".  
@@ -172,7 +172,7 @@ int main() {
 ```
 
 #### Output:
-![Screenshot 2024-04-01 132946](https://github.com/DestinaBektiS/Praktikum-Modul-3/assets/162097232/202d8fc4-5876-487d-8f1a-393cec022b2a)
+"C:\Users\Lenovo\OneDrive\Pictures\Screenshots\Screenshot 2024-04-01 132946.png"
 
 Interpretasi:
 Dari kodingan di atas kita bisa tau Nilai Mahasiswa IPS sebelum dan setelah diurutkan. Fungsi Selection Sort pada kodingan diatas menerima 2 parameter, yaitu "array" dan "int x" (void selection_sort(float arr[], int x). Fungsi "void" -> untuk parameter yang bersifat opsional, biasanya fungsi ini tidak mengambil parameter dan juga tidak menerima input. Dan untuk mengurutkan nilai mahasiswa ips, menggunakan fungsi "float arr". Nah Fungsi float -> menentukan sebuah nilai itu float atau double. 
@@ -211,7 +211,7 @@ int main() {
 ```
 
 #### Output:
-![Screenshot 2024-04-01 133013](https://github.com/DestinaBektiS/Praktikum-Modul-3/assets/162097232/1596782c-ffa2-4c76-9e31-9e93014ec2dc)
+"C:\Users\Lenovo\OneDrive\Pictures\Screenshots\Screenshot 2024-04-01 133013.png"
 
 Interpretasi:
 Dari kodingan di atas kita bisa tau 10 Naa Warga Pak RT. Program ini mengguakan algoritma Bubble Sort untuk menurutkan nama dalam Ascending dan Descending (void bubbleSort(string nama[], int x)). Setelah mengurutkan kita masukkan menggunakan "integer" dan "string" untuk memasukkan nama. Lalu kita print dengan menggunakan ( cout << "10 Nama warga Pak RT setelah diurutkan: ";).
@@ -268,7 +268,7 @@ int main() {
 ```
 
 #### Output:
-![Screenshot 2024-04-01 133100](https://github.com/DestinaBektiS/Praktikum-Modul-3/assets/162097232/b2fb3898-baaf-4ac5-a5c6-68d9e251fef0)
+"C:\Users\Lenovo\OneDrive\Pictures\Screenshots\Screenshot 2024-04-01 133100.png"
 
 Interpretasi:
 Dari kodingan diatas kita bisa mengetahui urutan karakter sebelum sorting dengan merubah menjadi Ascending dan Descending. Kenapa kita menggunakan fungsi (cin >> x;)? karena ketika kita  ingin mendapatkan jumlah karakter dari user, fungsi "cin" -> untuk membaca input dari user. Kemudian meminta user untuk masukan satu persatu karakter dengan menggunakan (cout << "Karakter ke-" << y + 1 << ":), lalu kita Menampilkan urutan karakter sebelum sorting (cout << "Urutan karakter sebelum sorting:" << endl;), selanjutnya membuat urutan Ascending dan Descending. 
