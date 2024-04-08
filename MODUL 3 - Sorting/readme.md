@@ -23,7 +23,6 @@ C.) Insertion Sort -> algoritma sorting  yang mengurutkan elemen dengan menysipk
 
 Algoritma ini tidak cocok untuk kumpulan array besar dan lebih efisien untuk array kecil, oleh karena itu kompleksitas waktu rata-rata dan paling buruk. [1]
 
-
 ## Guided 
 
 ### 1. [Bubble Sort]
@@ -170,7 +169,6 @@ int main() {
   return 0;
 }
 ```
-
 #### Output:
 ![Screenshot 2024-04-01 132946](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/25fa2170-107a-447d-b1ea-da7b6c305292)
 
