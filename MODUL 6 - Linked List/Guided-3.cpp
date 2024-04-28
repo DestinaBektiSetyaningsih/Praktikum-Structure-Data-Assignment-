@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-/// PROGRAM SINGLE LINKED LIST CIRCULAR
-
+/// PROGRAM LINKED LIST CIRCULAR
 // Deklarasi Struct Node
 struct Node {
     string data;

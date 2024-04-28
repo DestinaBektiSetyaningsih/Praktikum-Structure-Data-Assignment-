@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-///PROGRAM SINGLE LINKED LIST NON-CIRCULAR
+///PROGRAM LINKED LIST NON-CIRCULAR
 //Deklarasi Struct Node
 struct Node{
     //komponen/member
