@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-///PROGRAM DOUBLE LINKED LIST
+///PROGRAM DOUBLE LINKED LIST A
 class Node {
 public:
     int data;
