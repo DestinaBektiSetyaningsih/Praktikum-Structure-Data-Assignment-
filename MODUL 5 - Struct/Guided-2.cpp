@@ -22,7 +22,7 @@ struct hewanLaut {
 };
 
 int main() {
-    hewanDarat kelinci; // Menggunakan tipe data hewanDarat untuk kelinci
+    hewanDarat kelinci; // Menggunakan tipe data hewanDarat untuk kelinci a
     kelinci.jumlahKaki = 4;
     kelinci.menyusui = true;
     kelinci.suara = "Citcit";
