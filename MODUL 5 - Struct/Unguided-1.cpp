@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// Mendefinisikan struktur buku
+/// Mendefinisikan struktur buku
 struct Buku {
   string judulBuku[5];
   string penulis[5];

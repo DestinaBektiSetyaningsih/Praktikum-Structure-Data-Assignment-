@@ -33,7 +33,7 @@ struct buku {
 };
 
 int main() {
-    // Mendeklarasikan variabel favorit dengan tipe buku
+    /// Mendeklarasikan variabel favorit dengan tipe buku
     buku favorit;
 
     // Mengisi data ke dalam variabel favorit

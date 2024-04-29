@@ -27,7 +27,7 @@ int main() {
     kelinci.menyusui = true;
     kelinci.suara = "Citcit";
 
-    hewanLaut ikan; // Menggunakan tipe data hewanLaut untuk ikan
+    hewanLaut ikan; /// Menggunakan tipe data hewanLaut untuk ikan
     ikan.bentukSirip = "Sirip ekor";
     ikan.bentukPertahananDiri = "Sisik";
 

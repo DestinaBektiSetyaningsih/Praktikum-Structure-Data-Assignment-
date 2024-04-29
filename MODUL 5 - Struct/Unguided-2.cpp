@@ -3,7 +3,7 @@
 using namespace std;
 
 const int jumlah_buku = 5;
-/// Mendefinisikan struktur buku
+// Mendefinisikan struktur buku
 struct Buku {
     string judul_buku[jumlah_buku];
     string penulis[jumlah_buku];
