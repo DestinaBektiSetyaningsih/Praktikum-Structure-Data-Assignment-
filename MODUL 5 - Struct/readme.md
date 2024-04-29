@@ -23,7 +23,7 @@ Variabel/data elemen yang disebut juga sebagai "variabel/data member" ini dapat 
 
 using namespace std;
 
-// Mendefinisikan struktur buku
+/// Mendefinisikan struktur buku
 struct buku {
     string judulBuku;
     string pengarang;

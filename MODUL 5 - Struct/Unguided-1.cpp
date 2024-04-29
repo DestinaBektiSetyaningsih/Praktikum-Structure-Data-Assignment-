@@ -46,7 +46,7 @@ int main() {
   buku.hargaBuku[3] = 94000;
   buku.hargaBuku[4] = 75000;
 
-  // Menampilkan informasi buku
+  /// Menampilkan informasi buku
   cout << "\tDaftar Buku" << endl;
   for (int i = 0; i < 5; i++) {
     cout << "\n\tBuku ke-" << i + 1 << endl;
