@@ -150,87 +150,122 @@ Fungsi kode - kode diatas:
 
 ```C++
 #include <iostream>
-#include <string> // dengan menggunakan std::string
 
-// Mendefinisikan struct buku
-struct buku {
-    std::string judulBuku;
-    std::string pengarang;
-    std::string penerbit;
-    int tebalHalaman;
-    float hargaBuku;
+using namespace std;
+
+// Mendefinisikan struktur buku
+struct Buku {
+  string judulBuku[5];
+  string penulis[5];
+  string penerbit[5];
+  int tebalBuku[5];
+  int hargaBuku[5];
 };
 
 int main() {
-    // Mendeklarasikan variabel favorit dengan tipe buku
-    struct buku favorit;
+  // Mendeklarasikan variabel buku dengan tipe Buku
+  Buku buku;
 
-    // Mengisi data ke dalam variabel favorit
-    favorit.judulBuku = "The Alpha Girl's Guide";
-    favorit.pengarang = "Henry Manampiring";
-    favorit.penerbit = "Gagas Media";
-    favorit.tebalHalaman = 253;
-    favorit.hargaBuku = 79000;
+  // Mengisi data ke dalam array di dalam variabel buku
+  buku.judulBuku[0] = "Sejarah DUNIA yang disembunyikan";
+  buku.judulBuku[1] = "Insecurity";
+  buku.judulBuku[2] = "Overthinking";
+  buku.judulBuku[3] = "CANTIK itu LUKA";
+  buku.judulBuku[4] = "Konspirasi Alam Semesta";
 
-    // Menampilkan informasi buku favorit
-    std::cout << "\tBuku Favorit Saya" << std::endl;
-    std::cout << "\tJudul Buku : " << favorit.judulBuku << std::endl;
-    std::cout << "\tPengarang : " << favorit.pengarang << std::endl;
-    std::cout << "\tPenerbit : " << favorit.penerbit << std::endl;
-    std::cout << "\tTebal Halaman: " << favorit.tebalHalaman << " halaman" << std::endl;
-    std::cout << "\tHarga Buku : Rp " << favorit.hargaBuku << std::endl;
+  buku.penulis[0] = "Jonathan Black";
+  buku.penulis[1] = "Alvi Syahrin";
+  buku.penulis[2] = "Alvi Syahrin";
+  buku.penulis[3] = "Eka Kurniawan";
+  buku.penulis[4] = "Fiersa Besari";
 
-    return 0;
+  buku.penerbit[0] = "Alvabeta";
+  buku.penerbit[1] = "Kawah Media";
+  buku.penerbit[2] = "Kawah Media";
+  buku.penerbit[3] = "Gramedia Pustaka Utama";
+  buku.penerbit[4] = "Media Kita";
+
+  buku.tebalBuku[0] = 636;
+  buku.tebalBuku[1] = 264;
+  buku.tebalBuku[2] = 268;
+  buku.tebalBuku[3] = 520;
+  buku.tebalBuku[4] = 238;
+
+  buku.hargaBuku[0] = 165000;
+  buku.hargaBuku[1] = 84000;
+  buku.hargaBuku[2] = 90000;
+  buku.hargaBuku[3] = 94000;
+  buku.hargaBuku[4] = 75000;
+
+  // Menampilkan informasi buku
+  cout << "\tDaftar Buku" << endl;
+  for (int i = 0; i < 5; i++) {
+    cout << "\n\tBuku ke-" << i + 1 << endl;
+    cout << "\tJudul Buku: " << buku.judulBuku[i] << endl;
+    cout << "\tPenulis: " << buku.penulis[i] << endl;
+    cout << "\tPenerbit: " << buku.penerbit[i] << endl;
+    cout << "\tTebal Buku: " << buku.tebalBuku[i] << " halaman" << endl;
+    cout << "\tHarga Buku: Rp " << buku.hargaBuku[i] << endl;
+  }
+
+  return 0;
 }
 ```
 
 #### Output:
+![Screenshot 2024-04-29 090149](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/7276fa4e-2756-4915-a7ee-01209b480642)
 
+#### Screenshoot Full:
+![Screenshot 2024-04-29 090216](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/4ac5169b-c43c-40e6-8852-bde8c8c6944c)
 
 Interpretasi:
-Program diatas sama seperti guided 1, yaitu bertujuan untuk menampilkan informasi buku favorit, dan program diatas menggunakan "struct buku" untuk mendefinisikan struktur data buku yang memiliki "judul, penerbit, pengarang, tebal halama, harga buku". Meskipun sama seperti guided 1, tetapi program ini memiliki kode yang berbeda dengan guided 1, seperti setiap item yang terdapat pada struct buku berupa array. Program diatas memiliki bebarapa fungsi, seperti 
-- "std::cout" -> digunakan untuk menampilkan output ke layar. Lalu kenapa harus ada 'std'? karena untuk mengakseskan fungsi cout yang terdapat di beberapa namespace. begitupun dengan "std::string"
-- "float" -> untuk bilangan yang memiliki bagian desimal.
+Program diatas menampilkan beberapa daftar buku yang sudah dimasukkan kedalam kode tersebut. Tujuan program ini dibuat supaya pengguna bisa memahami fungsi dari "struct" yaitu, bisa menyimpan banyak data tanpa memakan banyak waktu dan memori. Program ini mempunyai beberapa fungsi kode dari setiap kodenya masing - masing, seperti:
+- Mengisi data buku ke dalam bentuk array dengan variabel "buku".
+- Menggunakan Loop "for" ->> untuk mengulangi proses output pada daftar buku tersebut sebanyak 5 kali, dan sesuai dengan apa yang kita inputkan.
 
 ### 2. [Modifikasi tugas guided pertama, sehingga setiap item yang terdapat pada struct buku berupa array yang berukuran 5, isi dengan data kemudian tampilkan.]
 
 ```C++
 #include <iostream>
 #include <string>
-
 using namespace std;
 
-// Mendefinisikan struktur buku
-struct buku {
-    string judulBuku;
-    string pengarang;
-    string penerbit;
-    int tebalHalaman;
-    int hargaBuku;
+const int jumlah_buku = 5;
+
+struct Buku {
+    string judul_buku[jumlah_buku];
+    string penulis[jumlah_buku];
+    string penerbit[jumlah_buku];
+    int tebal_buku[jumlah_buku];
+    double harga_buku[jumlah_buku];
 };
 
 int main() {
-    // Mendeklarasikan array dari struktur buku dengan ukuran 5
-    buku array_buku[5];
+    Buku daftar_buku;
 
-    // Mengisi data ke dalam array dari struktur buku
-    for (int i = 0; i < 5; i++) {
-        array_buku[i].judulBuku = "The Alpha Girl's Guide";
-        array_buku[i].pengarang = "Henry Manampiring";
-        array_buku[i].penerbit = "Gagas Media";
-        array_buku[i].tebalHalaman = 253;
-        array_buku[i].hargaBuku = 79000;
+    for (int i = 0; i < jumlah_buku; ++i) {
+        cout << "Masukkan informasi untuk buku ke-" << i+1 << ":" << endl;
+        cout << "Judul Buku: ";
+        getline(cin, daftar_buku.judul_buku[i]);
+        cout << "Penulis: ";
+        getline(cin, daftar_buku.penulis[i]);
+        cout << "Penerbit: ";
+        getline(cin, daftar_buku.penerbit[i]);
+        cout << "Tebal Buku: ";
+        cin >> daftar_buku.tebal_buku[i];
+        cout << "Harga Buku: Rp";
+        cin >> daftar_buku.harga_buku[i];
+        cin.ignore(); 
     }
 
-    // Menampilkan data dari array dari struktur buku
-    cout << "Data Buku:\n";
-    for (int i = 0; i < 5; i++) {
-        cout << "Buku ke-" << i + 1 << endl;
-        cout << "Judul: " << array_buku[i].judulBuku << endl;
-        cout << "Pengarang: " << array_buku[i].pengarang << endl;
-        cout << "Penerbit: " << array_buku[i].penerbit << endl;
-        cout << "Tebal Halaman: " << array_buku[i].tebalHalaman << " halaman" << endl;
-        cout << "Harga Buku: Rp " << array_buku[i].hargaBuku << endl;
+    cout << "\nDaftar Buku:" << endl;
+    for (int i = 0; i < jumlah_buku; ++i) {
+        cout << "Buku ke-" << i+1 << ":" << endl;
+        cout << "Judul Buku: " << daftar_buku.judul_buku[i] << endl;
+        cout << "Penulis: " << daftar_buku.penulis[i] << endl;
+        cout << "Penerbit: " << daftar_buku.penerbit[i] << endl;
+        cout << "Tebal Buku: " << daftar_buku.tebal_buku[i] << endl;
+        cout << "Harga Buku: Rp" << daftar_buku.harga_buku[i] << endl;
         cout << endl;
     }
 
@@ -239,13 +274,20 @@ int main() {
 ```
 
 #### Output:
+![Screenshot 2024-04-29 090819](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/f7d71b20-7fe2-4297-9770-5d41ba4ae177)
 
+#### Screenshoot Full:
+![Screenshot 2024-04-29 090840](https://github.com/DestinaBektiS/Praktikum-Structure-Data-Assignment-/assets/162097232/119320a0-428a-4c80-9fc1-0d28add2df4e)
 
 Interpretasi:
-Program diatas menggunakan kode array yang berisi 5 elemen dari stuktur "buku". Program diatas juga menampilkan informasi dari setiap buku dalam array "array_buku" dengan menggunakan loop "for", loop bisa digunakan untuk mengisi dan menampilkan data dari elemen array. Dengan menggunakan array tersebut kode dapat menyimpan dan mengelola informasi tentang beberapa buku dalam data yang terstruktur. 
+Program diatas yaitu memasukkan data - data buku supaya menjadi daftar buku. Tujuan program ini dibuat supaya pengguna bisa memahami fungsi dari "struct" yaitu, bisa menyimpan banyak data tanpa memakan banyak waktu dan memori. Cara kerjanya yaitu, pengguna memasukkan daftar buku seperti "judul buku", "penulis", "penerbit", "tebal buku", dan "harga buku" sebanyak 5 kali. Selain itu program ini mempunyai beberapa kode yang memiliki fungsinya masing - masing seperti:
+- Fungsi Utama "main" -> untuk titik masuk program, program ini membuat sebuah instance dari struct "Buku", yaitu "daftar_buku" untuk dapat menyimpan informasi tentang buku - buku tersebut.
+- Loop Input cara ini bertujuan supaya pengguna memasukkan beberapa data dengan menggunakan fungsi "getline" -> untuk membaca "judul buku" "penulis" "penerbit"  intinya yang berbasis character, selain itu juga Loop ini menggunakan fungsi "cin" -> untuk membaca "tebal buku" "harga buku" intinya yang berbasis integer.
+- Loop Output cara ini bertujuan untuk menampilkan informasi data - data buku tersebut yang telah dimasukkan.
+- Return -> untuk menandakan bahwa program sudah berakhir dan mengembalikkan ke 0, serta ditandai dengan eksekusi yang sukses.
 
 ## Kesimpulan
-Laporan ini disusun dengan tujuan untuk memahami konsep dasar tentang struct dalam pemrograman. Struct adalah kumpulan dari beberapa variabel dengan beragam tipe data yang dibungkus dalam satu variabel. Lalu mengapa struct penting dalam pemrograman? karena ketika kita ingin menyimpan sebuah data, kita membutuhkan "struct" supaya bisa menghemat memori dan mudah untuk diakses serta mudah untuk dimanipulasinya.
+Laporan ini disusun dengan tujuan untuk memahami konsep dasar tentang struct dalam pemrograman. Struct adalah kumpulan dari beberapa variabel dengan beragam tipe data yang dibungkus dalam satu variabel. Lalu mengapa struct penting dalam pemrograman? karena ketika kita ingin menyimpan sebuah data, kita membutuhkan "struct" supaya bisa menghemat memori dan mudah untuk diakses serta mudah untuk dimanipulasinya. Struct sendiri juga memiliki kemmiripan dengan array, bedanya struct bisa menampung lebih dari 1 jenis tipe data tersebut. Tipe data struct cocok dipakai untuk menampung data yang berkelompok, misalnya membuat biodata mahasiswa, biodata nama - nama universitas, dsb...
 
 ## Referensi
 [1] Studocu. (n.d.). Modul senarai berantai - Linked List ( Senarai Berantai) Pengertian Single Linked List pada C++. - Studocu. https://www.studocu.com/id/u/46348016?sid=01714316556

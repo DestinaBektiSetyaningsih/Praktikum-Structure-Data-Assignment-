@@ -1,39 +1,43 @@
 #include <iostream>
 #include <string>
-
 using namespace std;
 
-// Mendefinisikan struktur buku
-struct buku {
-    string judulBuku;
-    string pengarang;
-    string penerbit;
-    int tebalHalaman;
-    int hargaBuku;
+const int jumlah_buku = 5;
+
+struct Buku {
+    string judul_buku[jumlah_buku];
+    string penulis[jumlah_buku];
+    string penerbit[jumlah_buku];
+    int tebal_buku[jumlah_buku];
+    double harga_buku[jumlah_buku];
 };
 
 int main() {
-    // Mendeklarasikan array dari struktur buku dengan ukuran 5
-    buku array_buku[5];
+    Buku daftar_buku;
 
-    // Mengisi data ke dalam array dari struktur buku
-    for (int i = 0; i < 5; i++) {
-        array_buku[i].judulBuku = "The Alpha Girl's Guide";
-        array_buku[i].pengarang = "Henry Manampiring";
-        array_buku[i].penerbit = "Gagas Media";
-        array_buku[i].tebalHalaman = 253;
-        array_buku[i].hargaBuku = 79000;
+    for (int i = 0; i < jumlah_buku; ++i) {
+        cout << "Masukkan informasi untuk buku ke-" << i+1 << ":" << endl;
+        cout << "Judul Buku: ";
+        getline(cin, daftar_buku.judul_buku[i]);
+        cout << "Penulis: ";
+        getline(cin, daftar_buku.penulis[i]);
+        cout << "Penerbit: ";
+        getline(cin, daftar_buku.penerbit[i]);
+        cout << "Tebal Buku: ";
+        cin >> daftar_buku.tebal_buku[i];
+        cout << "Harga Buku: Rp";
+        cin >> daftar_buku.harga_buku[i];
+        cin.ignore(); 
     }
 
-    // Menampilkan data dari array dari struktur buku
-    cout << "Data Buku:\n";
-    for (int i = 0; i < 5; i++) {
-        cout << "Buku ke-" << i + 1 << endl;
-        cout << "Judul: " << array_buku[i].judulBuku << endl;
-        cout << "Pengarang: " << array_buku[i].pengarang << endl;
-        cout << "Penerbit: " << array_buku[i].penerbit << endl;
-        cout << "Tebal Halaman: " << array_buku[i].tebalHalaman << " halaman" << endl;
-        cout << "Harga Buku: Rp " << array_buku[i].hargaBuku << endl;
+    cout << "\nDaftar Buku:" << endl;
+    for (int i = 0; i < jumlah_buku; ++i) {
+        cout << "Buku ke-" << i+1 << ":" << endl;
+        cout << "Judul Buku: " << daftar_buku.judul_buku[i] << endl;
+        cout << "Penulis: " << daftar_buku.penulis[i] << endl;
+        cout << "Penerbit: " << daftar_buku.penerbit[i] << endl;
+        cout << "Tebal Buku: " << daftar_buku.tebal_buku[i] << endl;
+        cout << "Harga Buku: Rp" << daftar_buku.harga_buku[i] << endl;
         cout << endl;
     }
 
