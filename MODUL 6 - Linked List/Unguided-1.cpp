@@ -1,7 +1,7 @@
 #include <iostream> 
 #include <string> 
 using namespace std;
-
+/// Mendefinisikan struktur nama dan nim
 struct Node {
     string list_nama;
     string list_nim;

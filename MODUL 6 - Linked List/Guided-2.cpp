@@ -2,6 +2,7 @@
 using namespace std;
 
 ///PROGRAM LINKED LIST NON-CIRCULAR
+
 //Deklarasi Struct Node
 struct Node{
     //komponen/member

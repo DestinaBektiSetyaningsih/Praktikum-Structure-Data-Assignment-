@@ -2,7 +2,7 @@
 using namespace std;
 
 /// PROGRAM LINKED LIST CIRCULAR
-// Deklarasi Struct Node
+/// Deklarasi Struct Node
 struct Node {
     string data;
     Node *next;

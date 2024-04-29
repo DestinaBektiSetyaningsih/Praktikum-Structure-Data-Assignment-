@@ -979,7 +979,7 @@ Program diatas ialah program singly linked list non circular, yang dimana bersif
 program menggunakan kode "Node" -> untuk mempresentasikan setiap elemen dalam linked list. setiap node memiliki "list_nama" dan "list_nim", serta "next" untuk melanjutkan ke node berikutnya.
 
 ##### > Operasi - operasi Linked List
-- "void" -> untuk menunjukkan bahwa suatu fungsi tidak mengembalikkan nilai apapun, artinya fungsi ini tidak bisa mengembalikkan nilai apapun setelah dieksekusi.
+- "void" -> untuk menunjukkan bahwa suatu fungsi tidak mengembalikkan nilai apapun, artinya fungsi ini tidak bisa mengembalikkan nilai apapun setelah dieksekusi..
 
 - "init" -> untuk menginisialisasi linked list dengan mengatur head dan tail.
 
