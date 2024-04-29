@@ -22,7 +22,7 @@ int main() {
     favorit.tebalHalaman = 253;
     favorit.hargaBuku = 79000;
 
-    // Menampilkan informasi buku favorit
+    // Menampilkan informasi buku favorit A
     cout << "\tBuku Favorit Saya" << endl;
     cout << "\tJudul Buku : " << favorit.judulBuku << endl;
     cout << "\tPengarang : " << favorit.pengarang << endl;
