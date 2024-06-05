@@ -98,7 +98,7 @@ public:
     void cari_nilai(int awal, int akhir)
     {
         cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-        cout << "|       Nama          |       NIM       |     Nilai     |" << endl;
+        cout << "|       Name          |       NIM       |     Grade     |" << endl;
         cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
         for (int i = 0; i < MAX_SIZE; ++i)
         {
@@ -122,7 +122,7 @@ public:
     {
 
         cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-        cout << "|       Nama          |       NIM       |     Nilai     |" << endl;
+        cout << "|       Name         |       NIM       |     Grade    |" << endl;
         cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
         
         for (int i = 0; i < MAX_SIZE; ++i)
